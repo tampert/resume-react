@@ -1,5 +1,7 @@
 import React from "react";
 import "./index.css";
+import Experience from "./components/Experience";
+
 import {
   PhoneIcon,
   HomeIcon,
@@ -12,7 +14,6 @@ import {
   LanguageIcon,
   WrenchIcon,
   CodeBracketIcon,
-  HandRaisedIcon,
 } from "@heroicons/react/24/outline";
 
 export default function App() {
@@ -138,72 +139,17 @@ export default function App() {
             </p>
           </div>
         </section>
-        <section className="p-4">
-          <div className="pb-4 m-4">
-            <div className="flex items-center border-b-2 border-t-2 border-black p-2 ">
-              <HandRaisedIcon className="size-6 text-black mr-4 text-left"/>
-              <h2 className="text-2xl font-semibold  p-2 uppercase tracking-wider">
-                Experience
-              </h2>
-            </div>
-            <div className="pt-4">
-              <h3 className="text-xl font-semibold">Software Engineer</h3>
-              <p className="text-black/40 pl-2">
-                <strong>Team Frontend Workspace Axxerion Spacewell</strong>, Eindhoven NL, 2023 - February 2025</p>
-            </div>
-            <div className="pt-4">
-              <h3 className="text-xl font-semibold">Frontend Developer</h3>
-              <p className="text-black/40 pl-2">
-                <strong>Dutch Beauty Group</strong>, Eindhoven NL, 2021 - February 2023</p>
-            </div>
-            <div className="pt-4">
-              <h3 className="text-xl font-semibold">Software Engineer</h3>
-              <p className="text-black/40 pl-2">
-                <strong>trivago NV</strong>, Düsseldorf DE, 2014 - August 2020</p>
-            </div>
-
-            <div className="pt-4">
-              <h3 className="text-xl font-semibold">Interaction modeler</h3>
-              <p className="text-black/40 pl-2">
-                <strong>Océ technologies</strong>, Venlo NL, 2008 - March 2014</p>
-              <p className="text-base font-semibold">Primary tech stack</p>
-              <ul className="list-disc pl-5">
-                <li>ActionScript, Vanilla javascript, PHP MySql, Model View ViewModel pattern (MVVM), Agile Methods
-                </li>
-              </ul>
-              <p className="text-base font-semibold">Secondary tech stack</p>
-              <ul className="list-disc pl-5">
-                <li>C#, EXPRESSION BLEND, WPF</li>
-              </ul>
-              <p className="text-base font-semibold">Primary responsibilities</p>
-              <ul className="list-disc pl-5">
-                <li>Develop custom-made visualisations into MVPs, prototyping to support the project team in their
-                  design
-                  process.
-                </li>
-                <li>Develop web applications that answer UI concepts and GUI questions.
-                </li>
-              </ul>
-              <p className="text-base font-semibold">Technical challenges</p>
-              <ul className="list-disc pl-5">
-                <li>Develop desktop applications and local UI concepts in the corporate UI style.
-                </li>
-                <li>Working together with a large design team.
-                </li>
-              </ul>
-            </div>
-          </div>
-        </section>
+        <Experience />
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 }
 
 function Footer() {
   return (
-      <footer className="text-black py-4 text-center">
-        <p>© 2025 Dirk Soentjens. All rights reserved.</p>
-      </footer>
+    <footer className="text-black py-4 text-center">
+      <p>© 2025 Dirk Soentjens. All rights reserved.</p>
+    </footer>
   );
 }
