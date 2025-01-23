@@ -1,7 +1,6 @@
 import React from "react";
 import "./index.css";
 import Experience from "./components/Experience";
-
 import {
   PhoneIcon,
   HomeIcon,
@@ -15,7 +14,6 @@ import {
   WrenchIcon,
   CodeBracketIcon,
 } from "@heroicons/react/24/outline";
-
 export default function App() {
   return (
     <>

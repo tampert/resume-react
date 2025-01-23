@@ -25,15 +25,26 @@ export default function Experience() {
           </ul>
           <p className="text-base font-semibold">Secondary tech stack</p>
           <ul className="list-disc pl-5">
-            <li>GROOVY, SSH, YAML, Jenkins, devops, release cycle/processes</li>
+            <li>
+              GROOVY, SSH, YAML, Jenkins, devops, release cycle/processes,
+              Cucumber tests.
+            </li>
           </ul>
           <p className="text-base font-semibold">Primary responsibilities</p>
           <ul className="list-disc pl-5">
-            <li>to do</li>
+            <li>Lifting NodeJS and NPM packages for Axxerion.</li>
+            <li>Lifing custom component Jquery library.</li>
+            <li>Develop icon-mapping-tool in React.</li>
+            <li>Fixing frontend test.</li>
+            <li>Solving Pentests.</li>
+            <li>Daily standups with the frontend team.</li>
           </ul>
           <p className="text-base font-semibold">Technical challenges</p>
           <ul className="list-disc pl-5">
-            <li>to do</li>
+            <li>Develop sollutions to bring all product to one UI.</li>
+            <li>Working on Cobundo (frontend features in React, typescript)</li>
+            <li>Learning tests setup with Cucumber and Gherkin</li>
+            <li>Learning multiple frontend courses udemy.</li>
           </ul>
         </div>
         {/* parfumswinkel */}
