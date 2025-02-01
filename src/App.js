@@ -21,7 +21,13 @@ export default function App() {
         <section className="p-4">
           <div className="pb-4 m-4">
             <h1 className="text-4xl font-bold tracking-wide">Dirk Soentjens</h1>
-            <h2 className="text-2xl mt-2">Frontend Developer</h2>
+            <h2 className="text-2xl py-2">Frontend Developer</h2>
+            <img
+              class="object-cover  rounded-md"
+              src="dirk_sea.jpeg"
+              alt="Dirk Soentjens"
+            />
+
             <p className="mt-4 text-gray-800">
               I am a passionate frontend developer who loves to experiment and
               build features for all kinds of web applications. Since my high
