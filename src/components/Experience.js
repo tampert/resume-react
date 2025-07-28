@@ -1,7 +1,9 @@
 import { HandRaisedIcon } from "@heroicons/react/24/outline";
+
 export default function Experience() {
   return (
     <section className="p-4">
+      <style>{` a { color: red; } `}</style>
       <div className="pb-4 m-4">
         <div className="flex items-center border-b-2 border-t-2 border-black p-2 ">
           <HandRaisedIcon className="size-6 text-black mr-4 text-left" />
@@ -13,8 +15,13 @@ export default function Experience() {
         <div className="pt-4">
           <h3 className="text-xl font-semibold">Software Engineer</h3>
           <p className="text-black/40 pl-2">
-            <strong>Team Frontend Workspace Axxerion Spacewell</strong>,
-            Eindhoven NL, 2023 - February 2025
+            <a
+              href="https://spacewell.com/"
+              className="text-black/40 hover:text-red-600"
+            >
+              <strong>Team Frontend Workspace Axxerion Spacewell</strong>
+            </a>
+            , Eindhoven NL, 2023 - February 2025
           </p>
           <p className="text-base font-semibold">Primary tech stack</p>
           <ul className="list-disc pl-5">
@@ -51,8 +58,13 @@ export default function Experience() {
         <div className="pt-4">
           <h3 className="text-xl font-semibold">Frontend Developer</h3>
           <p className="text-black/40 pl-2">
-            <strong>Dutch Beauty Group</strong>, Eindhoven NL, 2021 - February
-            2023
+            <a
+              href="https://www.dutchbeautygroup.com/"
+              className="text-black/40 hover:text-red-600"
+            >
+              <strong>Dutch Beauty Group</strong>
+            </a>
+            , Eindhoven NL, 2021 - February 2023
           </p>
           <p className="text-base font-semibold">Primary tech stack</p>
           <ul className="list-disc pl-5">
@@ -87,7 +99,13 @@ export default function Experience() {
         <div className="pt-4">
           <h3 className="text-xl font-semibold">Software Engineer</h3>
           <p className="text-black/40 pl-2">
-            <strong>trivago NV</strong>, Düsseldorf DE, 2014 - August 2020
+            <a
+              href="https://www.trivago.com/"
+              className="text-black/40 hover:text-red-600"
+            >
+              <strong>trivago NV</strong>
+            </a>
+            , Düsseldorf DE, 2014 - August 2020
           </p>
           <p className="text-base font-semibold">Primary tech stack</p>
           <ul className="list-disc pl-5">
@@ -125,7 +143,13 @@ export default function Experience() {
         <div className="pt-4">
           <h3 className="text-xl font-semibold">Interaction modeler</h3>
           <p className="text-black/40 pl-2">
-            <strong>Océ technologies</strong>, Venlo NL, 2008 - March 2014
+            <a
+              href="https://anz.cpp.canon/about-us/worldwide/netherlands/"
+              class="text-black/40  hover:text-red-600"
+            >
+              <strong>Océ technologies</strong>
+            </a>
+            , Venlo NL, 2008 - March 2014
           </p>
           <p className="text-base font-semibold">Primary tech stack</p>
           <ul className="list-disc pl-5">
