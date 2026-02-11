@@ -11,6 +11,39 @@ export default function Experience() {
             Experience
           </h2>
         </div>
+        {/* ctrlchain */}
+        <div className="pt-4">
+          <h3 className="text-xl font-semibold">Frontend Developer</h3>
+          <p className="text-black/40 pl-2">
+            <a
+              href="https://ctrlchain.com/en-us/"
+              className="text-black/40 hover:text-red-600"
+            >
+              <strong>Team Pathfinders CtrlChain</strong>
+            </a>
+            , Eindhoven NL, September 2025 - 2026
+          </p>
+          <p className="text-base font-semibold">Primary tech stack</p>
+          <ul className="list-disc pl-5">
+            <li>AngularJS, Typescript, Tailwind</li>
+          </ul>
+          {/* <p className="text-base font-semibold">Secondary tech stack</p>
+          <ul className="list-disc pl-5">
+            <li>
+              GROOVY, SSH, YAML, Jenkins, devops, release cycle/processes,
+              Cucumber tests.
+            </li>
+          </ul> */}
+          <p className="text-base font-semibold">Primary responsibilities</p>
+          <ul className="list-disc pl-5">
+            <li>Development of the CtrlChain App.</li>
+            <li>Daily standups with the frontend team.</li>
+          </ul>
+          <p className="text-base font-semibold">Technical challenges</p>
+          <ul className="list-disc pl-5">
+            <li>Developing new features.</li>
+          </ul>
+        </div>
         {/* axxerion */}
         <div className="pt-4">
           <h3 className="text-xl font-semibold">Software Engineer</h3>
