@@ -27,13 +27,10 @@ export default function Experience() {
           <ul className="list-disc pl-5">
             <li>AngularJS, Typescript, Tailwind</li>
           </ul>
-          {/* <p className="text-base font-semibold">Secondary tech stack</p>
+          <p className="text-base font-semibold">Secondary tech stack</p>
           <ul className="list-disc pl-5">
-            <li>
-              GROOVY, SSH, YAML, Jenkins, devops, release cycle/processes,
-              Cucumber tests.
-            </li>
-          </ul> */}
+            <li>Azure Cloud, Git repos, Figma</li>
+          </ul>
           <p className="text-base font-semibold">Primary responsibilities</p>
           <ul className="list-disc pl-5">
             <li>Development of the CtrlChain App.</li>
@@ -42,6 +39,7 @@ export default function Experience() {
           <p className="text-base font-semibold">Technical challenges</p>
           <ul className="list-disc pl-5">
             <li>Developing new features.</li>
+            <li>Userstories, acceptance criteria, backlogs.</li>
           </ul>
         </div>
         {/* axxerion */}
