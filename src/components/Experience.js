@@ -29,7 +29,7 @@ export default function Experience() {
           </ul>
           <p className="text-base font-semibold">Secondary tech stack</p>
           <ul className="list-disc pl-5">
-            <li>Azure Cloud, Git repos, Figma</li>
+            <li>Azure DevOps, Git repos, Figma</li>
           </ul>
           <p className="text-base font-semibold">Primary responsibilities</p>
           <ul className="list-disc pl-5">
